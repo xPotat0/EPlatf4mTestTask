@@ -48,16 +48,25 @@ public class DriveLogController : Controller
         {
             if (timeStart <= log.StartDateTime && timeEnd >= log.EndDateTime)
             {
-                double time = (log.StartDateTime.Day - log.EndDateTime.Day);
-                result.Add(new AdvanceDriveLog
+                bool isFound = false;
+                var logCandidate = new AdvanceDriveLog
                 {
+                    PersonId = log.PersonId,
+                    CarId = log.CarId,
                     Name = names.Where(x => x.Id == log.PersonId).Select(x => x.Name).First(),
                     Age = names.Where(x => x.Id == log.PersonId).Select(x => x.Age).First(),
                     Manufacturer = cars.Where(x => x.Id == log.CarId).Select(x => x.Manufacturer).First(),
                     Model = cars.Where(x => x.Id == log.CarId).Select(x => x.Model).First(),
                     DrivingTime = log.EndDateTime.Subtract(log.StartDateTime),
+                };
+                foreach(var AdDrLog in result)
+                {
+                    if (AdDrLog.PersonId == logCandidate.PersonId && AdDrLog.CarId == logCandidate.CarId)
+                        { isFound = true;
+                        AdDrLog.DrivingTime += logCandidate.DrivingTime;
+                    }
                 }
-                ) ;
+                if(!isFound) { result.Add(logCandidate); }
             }
         }
         return Ok(result);

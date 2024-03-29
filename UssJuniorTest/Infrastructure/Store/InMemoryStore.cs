@@ -65,11 +65,19 @@ internal sealed class InMemoryStore : IStore
             CarId = 1,
             PersonId = 1,
             StartDateTime = new DateTime(2024, 3, 10, 13, 6, 0),
-            EndDateTime = new DateTime(2024, 3, 10, 15, 17, 0)
+            EndDateTime = new DateTime(2024, 2, 10, 16, 16, 0)
         },
         new()
         {
             Id = 2,
+            CarId = 1,
+            PersonId = 1,
+            StartDateTime = new DateTime(2024, 3, 11, 13, 6, 0),
+            EndDateTime = new DateTime(2024, 3, 11, 15, 17, 0)
+        },
+        new()
+        {
+            Id = 3,
             CarId = 3,
             PersonId = 1,
             StartDateTime = new DateTime(2024, 3, 10, 16, 0, 0),
@@ -77,7 +85,7 @@ internal sealed class InMemoryStore : IStore
         },
         new()
         {
-            Id = 3,
+            Id = 4,
             CarId = 1,
             PersonId = 2,
             StartDateTime = new DateTime(2024, 3, 11, 16, 17, 0),
@@ -85,7 +93,7 @@ internal sealed class InMemoryStore : IStore
         },
         new()
         {
-            Id = 4,
+            Id = 5,
             CarId = 2,
             PersonId = 3,
             StartDateTime = new DateTime(2024, 3, 11, 14, 0, 0),
