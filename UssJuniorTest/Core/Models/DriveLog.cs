@@ -9,20 +9,20 @@ public class DriveLog : Model
     /// <summary>
     /// Идентификатор автомобиля.
     /// </summary>
-    public long CarId { get; set; } = 3;
+    public long CarId { get; set; }
 
     /// <summary>
     /// Идентификатор человека.
     /// </summary>
-    public long PersonId { get; set; } = 5;
+    public long PersonId { get; set; }
 
     /// <summary>
     /// Старт вождения.
     /// </summary>
-    public DateTime StartDateTime { get; set; } = DateTime.Now;
+    public DateTime StartDateTime { get; set; }
 
     /// <summary>
     /// Конец вождения.
     /// </summary>
-    public DateTime EndDateTime { get; set; } = DateTime.Now;
+    public DateTime EndDateTime { get; set; }
 }
