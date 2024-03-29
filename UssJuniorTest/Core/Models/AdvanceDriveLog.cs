@@ -1,4 +1,6 @@
-﻿namespace UssJuniorTest.Core.Models
+﻿
+
+namespace UssJuniorTest.Core.Models
 {
     public class AdvanceDriveLog : Model
     {

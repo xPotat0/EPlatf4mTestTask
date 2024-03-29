@@ -14,61 +14,66 @@ public class DriveLogController : Controller
     }
 
     // TODO
-    //DriveLog logs = new DriveLog();
+    //Сделать Json парсер для TimeSpan в формате D.HH:MM
 
-    public List<DriveLog> logs = new List<DriveLog> {
-        new DriveLog { Id = 1, CarId = 1, PersonId = 1000000},
-        new DriveLog { Id = 2, CarId = 51, PersonId = 1000001},
-        new DriveLog { Id = 1, CarId = 1, PersonId = 1000002},
-    };
-    
-
-    [HttpGet("GetAll")]
-    public ActionResult<DriveLog> GetDriveLogsAggregation()
+    private List<AdvanceDriveLog> Data(DateTime timeStart, DateTime timeEnd, int logsPerPage, int page)
     {
-
-        return Ok(logs);
-    }
-
-    [HttpGet("GetById/{id}")]
-    public ActionResult<DriveLog> GetDriveLogFirst(int id = 0)
-    {
-        return Ok(logs.FirstOrDefault(x => x.Id == id, new DriveLog { Id = -1, CarId = -1}));
-    }
-
-    [HttpGet("GetByTime")]
-    public ActionResult<DriveLog> GetByTime(DateTime timeStart, DateTime timeEnd)
-    {
+        /*-----Получаем данные из InMemoryStore-----*/
         var dataBase = new InMemoryStore();
         var logs = dataBase.GetAllDriveLogs();
         var cars = dataBase.GetAllCars();
         var names = dataBase.GetAllPersons();
         var result = new List<AdvanceDriveLog>();
-        foreach(var log in logs)
+        /*-----Перебераем все данные-----*/
+        foreach (var log in logs)
         {
-            if (timeStart <= log.StartDateTime && timeEnd >= log.EndDateTime)
+            bool isFound = false;
+            /*-----Собираем данные в модель-----*/
+            var logCandidate = new AdvanceDriveLog
             {
-                bool isFound = false;
-                var logCandidate = new AdvanceDriveLog
+                PersonId = log.PersonId,
+                CarId = log.CarId,
+                Name = names.Where(x => x.Id == log.PersonId).Select(x => x.Name).First(),
+                Age = names.Where(x => x.Id == log.PersonId).Select(x => x.Age).First(),
+                Manufacturer = cars.Where(x => x.Id == log.CarId).Select(x => x.Manufacturer).First(),
+                Model = cars.Where(x => x.Id == log.CarId).Select(x => x.Model).First(),
+                DrivingTime = log.EndDateTime.Subtract(log.StartDateTime),
+            };
+
+            /*-----Ищем в записанных данных схожие сущности-----*/
+
+            foreach (var AdDrLog in result)
+            {
+                if (AdDrLog.PersonId == logCandidate.PersonId && AdDrLog.CarId == logCandidate.CarId)
                 {
-                    PersonId = log.PersonId,
-                    CarId = log.CarId,
-                    Name = names.Where(x => x.Id == log.PersonId).Select(x => x.Name).First(),
-                    Age = names.Where(x => x.Id == log.PersonId).Select(x => x.Age).First(),
-                    Manufacturer = cars.Where(x => x.Id == log.CarId).Select(x => x.Manufacturer).First(),
-                    Model = cars.Where(x => x.Id == log.CarId).Select(x => x.Model).First(),
-                    DrivingTime = log.EndDateTime.Subtract(log.StartDateTime),
-                };
-                foreach(var AdDrLog in result)
-                {
-                    if (AdDrLog.PersonId == logCandidate.PersonId && AdDrLog.CarId == logCandidate.CarId)
-                        { isFound = true;
-                        AdDrLog.DrivingTime += logCandidate.DrivingTime;
-                    }
+                    isFound = true;
+                    AdDrLog.DrivingTime += logCandidate.DrivingTime;
                 }
-                if(!isFound) { result.Add(logCandidate); }
             }
+
+            /*----- Проверяем, какая из функций была вызвана: взять всё или взять часть-----*/
+
+            if (timeStart == default(DateTime) || timeEnd == default(DateTime))
+            {
+                if (!isFound) { result.Add(logCandidate); } //Если такой модели ещё не было, то добавляем
+            }
+            else if (timeStart <= log.StartDateTime && timeEnd >= log.EndDateTime)
+            { if (!isFound) { result.Add(logCandidate); } } //Если такой модели ещё не было, то добавляем
         }
-        return Ok(result);
+        return result.Skip((page - 1) * logsPerPage).Take(page * logsPerPage).ToList();
+    }
+    
+
+    [HttpGet("GetAll")]
+    public ActionResult<AdvanceDriveLog> GetDriveLogsAggregation(int logsPerPage = 3, int page = 1)
+    {
+        return Ok(Data(DateTime.MinValue, DateTime.MaxValue, logsPerPage, page));
+    }
+
+
+    [HttpGet("GetByTime")]
+    public ActionResult<AdvanceDriveLog> GetByTime(DateTime timeStart = default(DateTime), DateTime timeEnd = default(DateTime), int logsPerPage = 3, int page = 1)
+    {
+        return Ok(Data(timeStart, timeEnd, logsPerPage, page));
     }
 }

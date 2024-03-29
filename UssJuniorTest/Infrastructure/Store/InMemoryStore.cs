@@ -65,7 +65,7 @@ internal sealed class InMemoryStore : IStore
             CarId = 1,
             PersonId = 1,
             StartDateTime = new DateTime(2024, 3, 10, 13, 6, 0),
-            EndDateTime = new DateTime(2024, 2, 10, 16, 16, 0)
+            EndDateTime = new DateTime(2024, 3, 10, 16, 16, 0)
         },
         new()
         {
