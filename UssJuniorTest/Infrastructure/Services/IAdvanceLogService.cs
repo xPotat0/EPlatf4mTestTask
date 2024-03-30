@@ -5,6 +5,6 @@ namespace UssJuniorTest.Infrastructure.Services
 {
     public interface IAdvanceLogService
     {
-        List<AdvanceDriveLog> GetAdvanceDriveLogs(DateTime startTime, DateTime endTime, int logsPerPage, int page);
+        List<AdvanceDriveLog> GetAdvanceDriveLogs(DateTime startTime, DateTime endTime, int logsPerPage, int page, string filterPersonName, string filterCarName, bool sortByPerson, bool sortByCar);
     }
 }
