@@ -19,8 +19,8 @@ namespace UssJuniorTest.Infrastructure.Services
             bool[] checks =
             {
                 (leftBorderTime <= startDateTime && rightBorderTime >= endDateTime),
-                log.Name.Contains(filterPersonName),
-                log.Model.Contains(filterCarName),
+                log.Name.ToLower().Contains(filterPersonName.ToLower()),
+                log.Model.ToLower().Contains(filterCarName.ToLower()),
                 !isFound,
             };
 
