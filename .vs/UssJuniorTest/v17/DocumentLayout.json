@@ -3,36 +3,52 @@
   "WorkspaceRootPath": "G:\\EPlatf4mTestTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\controllers\\drivelogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\controllers\\drivelogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\infrastructure\\services\\advancelogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\infrastructure\\services\\advancelogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\ussjuniortest.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\ussjuniortest.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\infrastructure\\store\\inmemorystore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\infrastructure\\store\\inmemorystore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\core\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\core\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\core\\models\\advancedrivelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\core\\models\\advancedrivelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\infrastructure\\services\\iadvancelogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\infrastructure\\services\\iadvancelogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\infrastructure\\repositories\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\infrastructure\\repositories\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\controllers\\drivelogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\controllers\\drivelogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\core\\models\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\core\\models\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\infrastructure\\store\\inmemorystore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\infrastructure\\store\\inmemorystore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\infrastructure\\store\\istore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\infrastructure\\store\\istore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\infrastructure\\repositories\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\infrastructure\\repositories\\carrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\ussjuniortest.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\ussjuniortest.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\core\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\core\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\core\\models\\advancedrivelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\core\\models\\advancedrivelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\core\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,14 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\core\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\core\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\core\\models\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\core\\models\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|g:\\eplatf4mtesttask\\ussjuniortest\\infrastructure\\store\\istore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96D7B5CD-FAEF-4DD7-8163-EBC6474F3B1D}|UssJuniorTest\\UssJuniorTest.csproj|solutionrelative:ussjuniortest\\infrastructure\\store\\istore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,20 +74,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdvanceDriveLog.cs",
-              "DocumentMoniker": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Core\\Models\\AdvanceDriveLog.cs",
-              "RelativeDocumentMoniker": "UssJuniorTest\\Core\\Models\\AdvanceDriveLog.cs",
-              "ToolTip": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Core\\Models\\AdvanceDriveLog.cs",
-              "RelativeToolTip": "UssJuniorTest\\Core\\Models\\AdvanceDriveLog.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T08:55:19.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "PersonRepository.cs",
               "DocumentMoniker": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Infrastructure\\Repositories\\PersonRepository.cs",
               "RelativeDocumentMoniker": "UssJuniorTest\\Infrastructure\\Repositories\\PersonRepository.cs",
@@ -87,23 +82,25 @@
               "RelativeToolTip": "UssJuniorTest\\Infrastructure\\Repositories\\PersonRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T08:50:59.503Z"
+              "WhenOpened": "2024-03-29T08:50:59.503Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CarRepository.cs",
               "DocumentMoniker": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Infrastructure\\Repositories\\CarRepository.cs",
               "RelativeDocumentMoniker": "UssJuniorTest\\Infrastructure\\Repositories\\CarRepository.cs",
               "ToolTip": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Infrastructure\\Repositories\\CarRepository.cs",
               "RelativeToolTip": "UssJuniorTest\\Infrastructure\\Repositories\\CarRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T08:50:43.519Z"
+              "WhenOpened": "2024-03-29T08:50:43.519Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "IRepository.cs",
               "DocumentMoniker": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Core\\IRepository.cs",
               "RelativeDocumentMoniker": "UssJuniorTest\\Core\\IRepository.cs",
@@ -111,12 +108,11 @@
               "RelativeToolTip": "UssJuniorTest\\Core\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T07:21:23.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-29T07:21:23.487Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Person.cs",
               "DocumentMoniker": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Core\\Models\\Person.cs",
               "RelativeDocumentMoniker": "UssJuniorTest\\Core\\Models\\Person.cs",
@@ -128,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
               "Title": "Model.cs",
               "DocumentMoniker": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Core\\Models\\Model.cs",
               "RelativeDocumentMoniker": "UssJuniorTest\\Core\\Models\\Model.cs",
@@ -136,7 +132,8 @@
               "RelativeToolTip": "UssJuniorTest\\Core\\Models\\Model.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-29T08:50:15.17Z"
+              "WhenOpened": "2024-03-29T08:50:15.17Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -146,40 +143,66 @@
               "RelativeDocumentMoniker": "UssJuniorTest\\Program.cs",
               "ToolTip": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Program.cs",
               "RelativeToolTip": "UssJuniorTest\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T13:09:25.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DriveLogController.cs",
               "DocumentMoniker": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Controllers\\DriveLogController.cs",
               "RelativeDocumentMoniker": "UssJuniorTest\\Controllers\\DriveLogController.cs",
               "ToolTip": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Controllers\\DriveLogController.cs",
               "RelativeToolTip": "UssJuniorTest\\Controllers\\DriveLogController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAowEsAAAAFAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T12:44:06.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "AdvanceLogService.cs",
+              "DocumentMoniker": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Infrastructure\\Services\\AdvanceLogService.cs",
+              "RelativeDocumentMoniker": "UssJuniorTest\\Infrastructure\\Services\\AdvanceLogService.cs",
+              "ToolTip": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Infrastructure\\Services\\AdvanceLogService.cs",
+              "RelativeToolTip": "UssJuniorTest\\Infrastructure\\Services\\AdvanceLogService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T11:01:15.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAdvanceLogService.cs",
+              "DocumentMoniker": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Infrastructure\\Services\\IAdvanceLogService.cs",
+              "RelativeDocumentMoniker": "UssJuniorTest\\Infrastructure\\Services\\IAdvanceLogService.cs",
+              "ToolTip": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Infrastructure\\Services\\IAdvanceLogService.cs",
+              "RelativeToolTip": "UssJuniorTest\\Infrastructure\\Services\\IAdvanceLogService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T10:58:03.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "InMemoryStore.cs",
               "DocumentMoniker": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Infrastructure\\Store\\InMemoryStore.cs",
               "RelativeDocumentMoniker": "UssJuniorTest\\Infrastructure\\Store\\InMemoryStore.cs",
               "ToolTip": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Infrastructure\\Store\\InMemoryStore.cs",
               "RelativeToolTip": "UssJuniorTest\\Infrastructure\\Store\\InMemoryStore.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAcwEMAAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEMAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-28T18:33:52.471Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "DriveLog.cs",
               "DocumentMoniker": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Core\\Models\\DriveLog.cs",
               "RelativeDocumentMoniker": "UssJuniorTest\\Core\\Models\\DriveLog.cs",
@@ -191,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Car.cs",
               "DocumentMoniker": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Core\\Models\\Car.cs",
               "RelativeDocumentMoniker": "UssJuniorTest\\Core\\Models\\Car.cs",
@@ -203,19 +226,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "UssJuniorTest",
               "DocumentMoniker": "G:\\EPlatf4mTestTask\\UssJuniorTest\\UssJuniorTest.csproj",
               "RelativeDocumentMoniker": "UssJuniorTest\\UssJuniorTest.csproj",
               "ToolTip": "G:\\EPlatf4mTestTask\\UssJuniorTest\\UssJuniorTest.csproj",
               "RelativeToolTip": "UssJuniorTest\\UssJuniorTest.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-28T13:44:39.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T13:44:39.821Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "IStore.cs",
               "DocumentMoniker": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Infrastructure\\Store\\IStore.cs",
               "RelativeDocumentMoniker": "UssJuniorTest\\Infrastructure\\Store\\IStore.cs",
@@ -223,7 +245,20 @@
               "RelativeToolTip": "UssJuniorTest\\Infrastructure\\Store\\IStore.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T18:39:31.842Z"
+              "WhenOpened": "2024-03-28T18:39:31.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdvanceDriveLog.cs",
+              "DocumentMoniker": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Core\\Models\\AdvanceDriveLog.cs",
+              "RelativeDocumentMoniker": "UssJuniorTest\\Core\\Models\\AdvanceDriveLog.cs",
+              "ToolTip": "G:\\EPlatf4mTestTask\\UssJuniorTest\\Core\\Models\\AdvanceDriveLog.cs",
+              "RelativeToolTip": "UssJuniorTest\\Core\\Models\\AdvanceDriveLog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T08:55:19.762Z"
             }
           ]
         }
